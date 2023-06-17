@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>public static void</Title>
+			<Author>Myself</Author>
+			<Description>Creates a public static void method</Description>
+			<Shortcut>pubsv</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[$Access$ static $Return$ $Name$($Param$)
+					{
+						$Body$
+					}]]>
+            </Code>
+			<Declarations>
+				<Literal Editable="true">
+					<ID>Access</ID>
+					<ToolTip>Chose an access modifier</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal Editable="true">
+					<ID>Return</ID>
+					<ToolTip>Chose a return type</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal Editable="true">
+					<ID>Name</ID>
+					<ToolTip>Chose method name</ToolTip>
+					<Default>Method</Default>
+				</Literal>
+				<Literal Editable="true">
+					<ID>Param</ID>
+					<ToolTip>Edit method prameter</ToolTip>
+					<Default>int parameter</Default>
+				</Literal>
+				<Literal Editable="true">
+					<ID>Body</ID>
+					<ToolTip>Place your code here</ToolTip>
+					<Default>// Palce your code here</Default>
+				</Literal>
+			</Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
